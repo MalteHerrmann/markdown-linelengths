@@ -7,7 +7,7 @@ import os
 # ----------------------
 # Globals
 #
-LINE_LENGTH = 80
+LINE_LENGTH = 120
 
 
 # ----------------------
