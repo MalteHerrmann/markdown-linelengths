@@ -3,6 +3,7 @@
 # Imports
 #
 import os
+import sys
 
 # ----------------------
 # Globals
@@ -38,5 +39,4 @@ def apply_markdown_line_length(path: str) -> bool:
 # Execution
 #
 if __name__ == '__main__':
-    evmos_repo = "/Users/malte/test/evmos"
-    apply_markdown_line_length(evmos_repo)
+    apply_markdown_line_length(sys.argv[1])
